@@ -1,0 +1,369 @@
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 0;
+    /* border:5px solid red; */
+}
+.container-fluid {
+    width: 100%;
+    margin: 0 auto;
+}
+.section-space {
+    padding: 30px 0;
+}
+.navbar-top-wraper img {
+    width: 10px;
+    height: 15px;
+
+}
+.navbar-top-wraper p{
+    color: white;
+    font-size: smaller;
+  font-weight: 100px;
+  padding: 0 8px
+}
+.navbar-nav .text {
+    color: white;
+    font-size: smaller;
+    font-weight: 100px;
+   
+}
+
+.navbar-nav li:nth-child(2) {
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+   
+   }
+ .navbar-wraper .image {
+    width: 50px;
+    height: 50px;
+}
+.navbar-wraper h3 {
+    color:  #7fa6ff;
+}
+.navbar-wraper .nav-link {
+    padding: 24px 0;
+    
+}
+.navbar-wraper .nav-link:hover {
+    /* text-decoration: underline; */
+    border-top: 2px solid  #7fa6ff;
+    border-bottom: 2px solid  #7fa6ff;
+    color:  #7fa6ff;
+
+}
+.carousel-inner {
+    position: relative;
+}
+.carousel-caption {
+    position: absolute;
+    top:20%;
+    left: -200px;
+}
+.carousel-caption p {
+    padding-top: 16px;
+    font-size: smaller;
+    color: lightslategray;
+}
+
+.btn-lg, .btn-group-lg > .btn {
+   margin: 24px 0;
+    --bs-btn-padding-x: 2.5rem;
+    font-size: smaller;
+    --bs-btn-border-radius: 0;
+}
+.carousel-caption .btn-left{
+    margin-right:  24px  ;
+}
+.introductory-note-wraper h6 , p {
+    color: lightslategray;
+}
+.features-wraper .row{
+    border-left: 5px solid #7fa6ff;
+}
+.features-wraper p {
+    color: lightslategray;
+    font-size: small;
+}
+/* .service-providing-wraper {
+    position: relative;
+} */
+.service-providing-wraper .card-item{
+    padding: 0;
+
+}
+/* .service-providing-wraper .background-light-bg {
+    border-radius: 8px;
+    width: 100px;
+    height:80px;
+} */
+
+ 
+.service-providing-wraper .card {
+    border:0;
+    width: fit-content;
+    
+}
+/* .service-providing-wraper .card-body {
+ 
+    padding: 8px;
+ 
+} */
+.service-providing-wraper img {
+   width: 50px;
+   height: 50px;
+    object-fit:cover;
+
+}
+/* .service-providing-wraper .heart-img {
+    width: 70px;
+    height: 70px;
+} */
+.service-providing-wraper  .card-text {
+    font-size: smaller;
+}
+/* .service-providing-wraper .recording-vedio {
+    position: relative;
+} */
+.service-providing-wraper .carousel-item img {
+    width: 100%;
+    height: 300px;
+}
+/* .service-providing-wraper .background-light {
+    background-color: white;
+   border-radius: 8px;
+   width: 180px;
+
+} */
+.promotional-product-wraper .row {
+    border: 5px solid #7fa6ff;
+}
+.promotional-product-wraper img {
+    width: 10px;
+    height: 10px;
+}
+.additional-service-wraper p{
+    font-size:smaller;
+}
+.additional-service-wraper img {
+    width: 30px;
+    height: 30px;
+
+}
+.additional-service-wraper h5 {
+    font-size: smaller;
+    margin-left: 16px;
+}
+.additional-service-inner img {
+    width: 30px;
+    height: 30px;
+
+}
+.additional-service-inner h5 {
+    font-size: smaller;
+    margin-left: 16px;
+}
+.additional-service-inner .background-light {
+    background-color: white;
+   border-radius: 8px;
+   width: 300px;
+   height:80px;
+}
+.additional-service-inner .background-light:hover {
+    background-color:#7fa6ff;
+   border-radius: 8px;
+   width: 300px;
+   height:80px;
+}
+.additional-service-inner .background{
+    background-color: #7fa6ff;
+   border-radius: 8px;
+   width: 300px;
+    height:80px;
+}
+.additional-service-inner .background {
+   margin: 0;
+}
+.past-services-wraper {
+    background-color: #7fa6ff;
+}
+.past-services-wraper img {
+    width: 60px;
+    height: 50px;
+    
+}
+.professional-employee-wraper p {
+    font-size: smaller;
+}
+.intro-empoyees-wraper img {
+    width: 100%;
+    height: 400px;
+    /* border: 8px solid white; */
+    object-fit: cover;
+   
+}
+.intro-empoyees-wraper p {
+    font-size: smaller;
+}
+
+
+.service-specialization-wraper p{
+    font-size: smaller;
+}
+.service-specialization-wraper img {
+    width: 50px;
+    height: 50px;
+}
+.service-specialization-wraper .image-bgd {
+    background-color:#7fa6ff;
+    border-radius: 5px;
+    padding: 0;
+ 
+}
+.neuro-based-intro .card-img img{
+    width: 100%;
+    height: 300px;
+}
+.neuro-based-intro .dot-img img {
+    width: 10px;
+    height: 10px;
+}
+.customer-approach-wraper p {
+    font-size: smaller;
+}
+
+.approach-inner .carousel-item img {
+    width: 60px;
+    height: 60px;
+}
+.approach-inner h5, p{
+font-size: smaller;
+}
+.dot-space .col-md-4{
+    width:6px;
+    height: 12px;
+    background-color: #7fa6ff;
+}
+.appointment-info-wraper p{
+font-size: smaller;
+}
+/* .personal-info-wraper {
+    justify-content: space-between;
+} */
+.personal-info-wraper .border-box {
+    border: 5px solid #7fa6ff;
+}
+.personal-info-wraper .form-control {
+   
+    border-radius: 16px;
+}
+.personal-info-wraper .btn {
+    border-radius: 16px;
+}
+.personal-info-wraper .doctor-intro {
+    width: 100%;
+    height: 250px;
+
+}
+.personal-info-wraper img {
+    width: 30%;
+    height: 100px;
+}
+.personal-info-wraper p {
+    font-size: smaller;
+}
+
+.knowledge-based-wraper p {
+    font-size: smaller;
+}
+.knowledge-based-wraper img {
+    width: 350px;
+    height: 200px;
+}
+.knowledge-based-wraper .blue-tooth {
+    width: 20px;
+    height: 20px;
+   padding: 0;
+}
+.knowledge-based-wraper .btn {
+    background-color: white;
+    
+}
+.knowledge-based-wraper .btn-primary {
+    --bs-btn-color: #7fa6ff;
+}
+.knowledge-based-wraper .card-wrap {
+    text-align:left !important;
+ 
+}
+.knowledge-based-wraper p {
+    font-size: smaller;
+}
+.emergancy-info-wraper {
+  background-color: #7fa6ff;
+  height: 300px;
+}
+.emergancy-info-wraper img{
+    width: 100%;
+    height: 300px;
+    background-color: #7fa6ff;
+}
+.emergancy-info-wraper .timer {
+    width: 50%;
+    height: 170px;
+
+}
+.emergancy-info-wraper h2,h3 {
+    color: white;
+}
+/* .emergancy-info-wraper .helpline {
+    position: absolute;
+    top: 30%;
+    left: 300px;
+} */
+.footer-navbar img {
+    width: 20px;
+    height: 20px;
+}
+.footer-navbar p {
+    font-size: x-small;
+   
+}
+.footer-navbar .heart {
+    width: 50px;
+    height: 50px;
+}
+.footer-navbar h2 {
+   color: #7fa6ff;
+}
+.footer-navbar .blog img{
+    width: 60px;
+    height: 60px;
+}
+.footer-navbar .you {
+    padding-left: 8px;
+    width: 50px;
+}
+.footer-navbar .twit {
+ 
+    width: 50px;
+}
+.footer-navbar .direction {
+    padding-left: 1.5rem;
+}
+.form-control {
+    border-radius: 0;
+}
+.btn-lg, .btn-group-lg > .btn {
+ 
+    --bs-btn-padding-x: 4.8rem;
+
+}
+.bottom-footer-navbar {
+    background-color: #7fa6ff;
+}
+.bottom-footer-navbar p {
+    color: white;
+    font-size: x-small;
+}
